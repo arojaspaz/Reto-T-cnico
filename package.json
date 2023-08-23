@@ -1,0 +1,27 @@
+{
+  "name": "api-serverless-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@middy/core": "^4.5.5",
+    "@middy/http-error-handler": "^4.5.5",
+    "@middy/http-header-normalizer": "^4.5.5",
+    "@middy/http-json-body-parser": "^4.5.5",
+    "aws-sdk": "^2.1413.0",
+    "axios": "^1.4.0",
+    "serverless-openapi-documentation": "^0.4.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.4.0",
+    "mocha": "^10.2.0"
+  }
+}
